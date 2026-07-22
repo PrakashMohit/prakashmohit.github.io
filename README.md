@@ -1,7 +1,7 @@
 # Prakash Mohit — Universe Portfolio
 
 A static, real-time 3D portfolio designed as a navigable universe rather than a conventional scrolling page.
-
+  
 ## Controls
 
 - Mouse wheel / trackpad: travel between worlds
