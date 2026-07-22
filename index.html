@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#02040a">
+  <meta name="description" content="Prakash Mohit — AI engineer building embodied intelligence, local agents, and autonomous systems.">
+  <meta property="og:title" content="Prakash Mohit — Intelligence, in motion">
+  <meta property="og:description" content="Enter an interactive universe of embodied AI, local voice systems, and intelligent software.">
+  <meta property="og:type" content="website">
+  <title>Prakash Mohit — Intelligence, in motion</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="is-loading">
+  <a class="skip-link" href="#experience">Skip to portfolio</a>
+
+  <canvas id="universe" aria-hidden="true"></canvas>
+  <div class="fx" aria-hidden="true">
+    <div class="fx__grain"></div>
+    <div class="fx__vignette"></div>
+    <div class="fx__scan"></div>
+  </div>
+
+  <div class="loader" data-loader>
+    <div class="loader__core">
+      <span class="loader__mark">PM</span>
+      <span class="loader__ring"></span>
+      <span class="loader__ring loader__ring--two"></span>
+    </div>
+    <p>Constructing universe</p>
+    <div class="loader__track"><i></i></div>
+    <b>00</b>
+  </div>
+
+  <section class="gate" data-gate aria-labelledby="gate-title">
+    <header class="gate__header">
+      <a class="identity" href="#" aria-label="Prakash Mohit home">
+        <span>PM</span>
+        <strong>Prakash Mohit</strong>
+      </a>
+      <p>AI engineer · IIT Madras</p>
+    </header>
+
+    <div class="gate__copy">
+      <p class="eyebrow"><i></i> Interactive engineering portfolio</p>
+      <h1 id="gate-title">Enter a universe<br><em>where intelligence moves.</em></h1>
+      <p class="gate__lede">Embodied AI, local-first agents, and autonomous systems—experienced as worlds, not slides.</p>
+      <button class="enter" type="button" data-enter>
+        <span>Enter universe</span>
+        <i aria-hidden="true">↗</i>
+      </button>
+    </div>
+
+    <div class="gate__footer">
+      <span>Prayagraj · India</span>
+      <span>Scroll / drag to travel</span>
+      <span>Headphones optional</span>
+    </div>
+  </section>
+
+  <main id="experience" class="experience" aria-live="polite">
+    <header class="hud-top">
+      <a class="identity identity--hud" href="#origin" data-go="0">
+        <span>PM</span>
+        <strong>Prakash Mohit</strong>
+      </a>
+
+      <div class="hud-top__meta">
+        <span data-status>UNIVERSE ONLINE</span>
+        <i></i>
+        <span>IST +05:30</span>
+      </div>
+
+      <div class="hud-top__actions">
+        <button class="icon-button" type="button" data-sound aria-label="Toggle ambient sound" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4Zm12.5 3a4.5 4.5 0 0 0-2-4v8a4.5 4.5 0 0 0 2-4Z"/></svg>
+          <span>Sound</span>
+        </button>
+        <a class="contact-link" href="mailto:hello@prakashmohit.dev">Open channel ↗</a>
+      </div>
+    </header>
+
+    <nav class="route" aria-label="Universe route">
+      <button type="button" data-go="0" aria-label="Go to Origin"><i></i><span>Origin</span></button>
+      <button type="button" data-go="1" aria-label="Go to VLA Robotic Arm"><i></i><span>VLA Arm</span></button>
+      <button type="button" data-go="2" aria-label="Go to Offline Voice AI"><i></i><span>Voice Core</span></button>
+      <button type="button" data-go="3" aria-label="Go to Placement Intelligence"><i></i><span>Data Orbit</span></button>
+      <button type="button" data-go="4" aria-label="Go to Contact"><i></i><span>Signal</span></button>
+      <b aria-hidden="true"><i data-route-progress></i></b>
+    </nav>
+
+    <section class="world-copy is-active" data-world-copy>
+      <div class="world-copy__index">
+        <span data-orbit>00</span>
+        <i></i>
+        <span data-kind>ORIGIN</span>
+      </div>
+      <div class="world-copy__content">
+        <p class="world-copy__kicker" data-kicker>AI ENGINEER · EMBODIED INTELLIGENCE</p>
+        <h2 data-title>Prakash<br><em>Mohit.</em></h2>
+        <p class="world-copy__description" data-description>Building systems that perceive, reason, and act—from local AI pipelines to machines that move in the physical world.</p>
+        <div class="world-copy__tags" data-tags>
+          <span>Embodied AI</span><span>Local agents</span><span>Robotics</span>
+        </div>
+        <div class="world-copy__actions">
+          <button class="world-action" type="button" data-open-world>
+            <span>Explore this world</span><i>↗</i>
+          </button>
+          <a class="world-secondary" href="https://github.com/PrakashMohit" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="telemetry" aria-hidden="true">
+      <div><span>TRAVEL</span><b data-travel>000.0</b></div>
+      <div><span>VECTOR</span><b data-vector>STABLE</b></div>
+      <div><span>RENDER</span><b data-render>WEBGL2</b></div>
+    </div>
+
+    <div class="travel-hint" data-travel-hint>
+      <span>Scroll to travel</span>
+      <i></i>
+    </div>
+
+    <div class="mobile-controls" aria-label="World navigation">
+      <button type="button" data-prev aria-label="Previous world">←</button>
+      <span><b data-mobile-index>01</b> / 05</span>
+      <button type="button" data-next aria-label="Next world">→</button>
+    </div>
+  </main>
+
+  <dialog class="world-panel" data-panel>
+    <div class="world-panel__veil" data-close-panel></div>
+    <article class="world-panel__card">
+      <header>
+        <div>
+          <span data-panel-orbit>01 / WORLD</span>
+          <p data-panel-status>ACTIVE PROTOTYPE</p>
+        </div>
+        <button type="button" data-close-panel aria-label="Close project details">Close <i>×</i></button>
+      </header>
+      <div class="world-panel__body">
+        <div class="world-panel__lead">
+          <p data-panel-kicker>EMBODIED AI</p>
+          <h3 data-panel-title>Vision–Language–Action Robotic Arm</h3>
+          <p data-panel-summary>An embodied system translating natural-language intent into physical motion.</p>
+        </div>
+        <div class="world-panel__grid">
+          <section>
+            <span class="section-label">SYSTEM FLOW</span>
+            <ol data-panel-flow></ol>
+          </section>
+          <section>
+            <span class="section-label">ENGINEERING DECISIONS</span>
+            <ul data-panel-decisions></ul>
+          </section>
+          <section class="world-panel__next">
+            <span class="section-label">NEXT SIGNAL</span>
+            <p data-panel-next></p>
+          </section>
+        </div>
+      </div>
+      <footer>
+        <span>Perceive → Reason → Act</span>
+        <a href="mailto:prakashmohit@gmail.com">Discuss this system ↗</a>
+      </footer>
+    </article>
+  </dialog>
+
+  <noscript>
+    <div class="noscript">
+      <h1>Prakash Mohit</h1>
+      <p>AI engineer building embodied intelligence, local voice systems, and autonomous software.</p>
+      <a href="mailto:prakashmohit@gmail.com">prakashmohit@gmail.com</a>
+    </div>
+  </noscript>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
